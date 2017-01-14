@@ -1,0 +1,172 @@
+* {
+	border: 0;
+	margin: 0;
+	outline: none;
+	padding: 0;
+}
+
+body {
+	font-family: "Overpass", sans-serif;
+}
+
+nav {
+	background: #FE7E00;
+	height: 137px;
+}
+
+nav img {
+	width: 50px;
+	display: inline-block;
+	padding-left: 50px;
+	margin-top: 10px;
+}
+
+.logo,
+.sitenav {
+	display: inline-block;
+	color: #FFE5A7;
+}
+
+.logo {
+	font-size: 50px;
+	text-decoration: none;
+	letter-spacing: -2px;
+	padding-top: 25px;
+}
+
+.sitenav {
+	display: inline-block;
+	float: right;
+}
+
+.sitenav li {
+	display: inline-block;
+	padding-top: 30px;
+	font-size: 18px;
+	letter-spacing: 2px;
+}
+
+.sitenav a {
+	color: #fff;
+	display: inline-block;
+	padding: 20px 28px;
+}
+
+.thick {
+	font-weight: bold;
+}
+
+.thin {
+	color: #FFAF65;
+	font-family: "Quicksand", sans-serif;
+}
+
+#search {
+	height: 150px;
+	background-color: #FAFAFA;
+}
+
+#search input {
+	float: left;
+	height: 80px;
+	width: 254px;
+	background-color: #EFEFEE;
+	margin-top: 3px;
+	font-size: 18px;
+	display: inline-block;
+	margin-left: 1200px;
+	padding-left: 25px;
+}
+
+#search i {
+	display: inline-block;
+	float: right;
+	color: #A9A9A9;
+	background-color: #EFEFEE;
+	width: 80px;
+	height: 60px;
+	margin-top: 3px;
+	padding: 20px 0 0 20px;
+	margin-right: 20px
+}
+
+
+#content {
+	height: 600px;
+	position: relative;
+	background-color: #FAFAFA;
+	color: #E8B15C;
+	font-family: "Quicksand", sans-serif;
+}
+
+#content .text {
+	position: relative;
+}
+
+#content img {
+	width: 700px;
+	display: inline-block;
+	width: 45%;
+	position: absolute;
+}
+
+#content p {
+	display: inline-block;
+	position: absolute;
+	font-size: 55px;
+	font-weight: lighter;
+	margin-left: 800px;
+	padding-top: 75px;
+	width: 49%;
+	height: 150px;
+	line-height: 120%;
+}
+
+#content .thick {
+	font-family: "Overpass", sans-serif;
+	font-weight: bold;
+	color: #FE7E00;
+}
+
+#content .second-tm {
+	font-weight: lighter;
+	color: #FE7E00;
+	font-size: 50px;
+}
+
+#content .colorpop {
+	color: #8ABEBB;
+}
+
+#content .btn {
+	position: absolute;
+	margin-top: 350px;
+	margin-left: 800px;
+}
+
+#content .first,
+#content .second {
+	font-family: "Overpass", sans-serif;
+	font-size: 25px;
+	display: inline-block;
+	border-radius: 5%;
+}
+
+#content .first {
+	background-color: #FF7D00;
+	color: #FCB363;
+	padding: 30px 90px;
+	margin-right: 50px;
+}
+
+#content .second {
+	background-color: #78CDC8;
+	color: #C6F9F6;
+	padding: 30px 60px;
+}
+
+footer {
+	background-color: #7ACCC8;
+	height: 130px;
+}
+
